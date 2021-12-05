@@ -46,4 +46,10 @@ public class EmployeeController {
     {
         return "WELCOME TO FINTECH CSI PUNE | INDIA";
     }
+
+    @GetMapping("/fullstack")
+    public String fullStack()
+    {
+        return "WELCOME TO FULL STACK PUNE | INDIA";
+    }
 }
